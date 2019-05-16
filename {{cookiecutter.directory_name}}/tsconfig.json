@@ -1,0 +1,14 @@
+{
+  "include": [
+    "types/**/*"
+  ],
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { "*": ["types/*"] },
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
